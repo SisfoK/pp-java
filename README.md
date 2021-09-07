@@ -9,5 +9,5 @@ Tutorial Pemrograman Java
 2. [Tipe data](/tipe-data.md)
 3. [Operasi dasar](/operasi.md)
 4. [Penyeleksian](/penyeleksian.md)
-5. Perulangan
+5. [Perulangan](/perulangan.md)
 6. Data structure
