@@ -123,3 +123,55 @@ Deklarasi sekaligus inisiasi juga dapat dilakukan, misalnya dengan:
 float f = 21.0f;
 boolean b = false;
 ```
+
+### Inisiasi dinamis
+
+Dua atau lebih data dapat di isi secara bersamaan dalam satu baris dengan syarat
+tipe datanya sama. Contoh:
+
+```java
+int a = 12, b = 13, c = 14;
+```
+
+## Mengubah tipe ke tipe data lain
+
+Suatu tipe data dapat di ubah ke tipe data lain, misalnya dari byte ke int.
+Syaratnya adalah:
+
+-   kedua tipe data kompatible, misalnya antara byte dengan int, int dengan float,
+    tetapi char dan boolean tidak memiliki kompatible.
+-   tipe data yang dituju memiliki ruang penyimpanan yang lebih besar, misalnya
+    byte memiliki ruang penyimpanan 2^8, akan diubah ke int yang memiliki penyimpanan
+    2^32. Tetapi jika dari tipe data int ke byte, maka jika nilai yang akan diubah
+    lebih besar dari 2^8, maka akan menyebabkan nilai akhir adalah hasil modulo
+    dari ukuran byte.
+
+Cara mengubah tipe data dapat dicontohkan sebagai berikut:
+
+```java
+int n = 12;
+byte b = (int) n;
+```
+
+Bagaimana jika int ke float, silahkan coba sendiri.
+
+### Konversi otomatis
+
+Misalnya terdapat a, b, c yang merupakan byte, kemudian dilakukan operasi sebagai
+berikut:
+
+```java
+byte a = 40;
+byte b = 50;
+byte c = 100;
+int d = a * b / c;
+```
+
+maka nilai a, b dan c akan otomatis diubah menjadi int.
+
+Aturan promosi ini adalah:
+
+1. byte, short, char akan di ubah ke int,
+2. jika operasinya adalah long, maka akan diubah ke long,
+3. float akan di ubah ke double,
+4. jika operasi melibatkan double, maka otomatis akan diubah semua ke double.
