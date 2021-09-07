@@ -88,3 +88,38 @@ String name = "Deo";
 
 perhatikan, penulisan `String` menggunakan kapital di awal kata, kemudian isinya
 disimpan di dalam tanda kutip dua ("...").
+
+## Deklarasi variabel
+
+Sebuah data dapat disimpan ke dalam variabel. Format penulisannya sebagai berikut:
+
+```java
+type namaVariabel;
+```
+### Deklarasi
+
+Deklarasi adalah pembuatan sebuah variabel, namun belum di isi dengan suatu nilai.
+Contoh:
+
+```java
+int n;
+boolean b;
+char c;
+```
+
+### Inisiasi
+
+Inisiasi adalah pengisian sebuah variabel dengan data. Contoh:
+
+```java
+n = 12;
+b = false;
+c = 'A';
+```
+
+Deklarasi sekaligus inisiasi juga dapat dilakukan, misalnya dengan:
+
+```java
+float f = 21.0f;
+boolean b = false;
+```
