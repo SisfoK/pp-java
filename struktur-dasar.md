@@ -10,19 +10,27 @@ class Main{
 }
 ```
 
-```java 
-class Main
-```
-
-adalah class utama, nama `Main` harus sesuai dengan nama file. Aturan penulisannya
+`class Main` Adalah class utama, nama `Main` harus sesuai dengan nama file. Aturan penulisannya
 adalah dengan menggunakan huruf kapital di huruf pertama. Misalnya: `Main`, `Utama`,
 dsb-nya.
 
-```java
-public static void main(String args[])
-```
+`public static void main(String args[])` adalah kode utama yang akan dijalankan ketika kita menjalankan sebuah program Java.
 
-adalah kode utama yang akan dijalankan ketika kita menjalankan sebuah program Java.
+## Aturan Penamaan
+
+Dalam penulisan nama variabel perlu diperhatikan terdapat beberapa aturan khusus dalam Java yang harus dipatuhi seperti:
+
+1. tidak boleh diawali dengan angka,
+
+2. tidak boleh disertai symbol khusus seperti @,!,*,#,
+
+3. tidak boleh menggunakan reserved word sebagai nama variable,
+
+4. boleh diawali dengan underscore atau symbol $, dan
+
+5. nama variable tidak boleh mengandung spasi.
+
+Menurut Convention over configuration Java penulisan nama variable menggunakan lower camel case (misalnya namaVariabel), dan penulisan nama class menggunakan upper camel case (misalnya Main).
 
 ## Menjalankan program
 
