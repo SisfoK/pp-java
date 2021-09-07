@@ -14,7 +14,8 @@
 
 2. short
     
-    short adalah tipe data yang menampung angka dengan range -32.768 - 32.767 (2^16).
+    short adalah tipe data yang menampung angka dengan range -32.768 - 32.767
+    (2^16).
 
     ```java
     short n = 1200;
@@ -79,8 +80,8 @@ boolean b = true;
 
 ### String
 
-String adalah tipe data yang menampung karakter. String bisa menampung lebih dari
-satu karakter, misalnya kata, kalimat atau paragraf.
+String adalah tipe data yang menampung karakter. String bisa menampung lebih
+dari satu karakter, misalnya kata, kalimat atau paragraf.
 
 ```java
 String name = "Deo";
@@ -91,15 +92,16 @@ disimpan di dalam tanda kutip dua ("...").
 
 ## Deklarasi variabel
 
-Sebuah data dapat disimpan ke dalam variabel. Format penulisannya sebagai berikut:
+Sebuah data dapat disimpan ke dalam variabel. Format penulisannya sebagai
+berikut:
 
 ```java
 type namaVariabel;
 ```
 ### Deklarasi
 
-Deklarasi adalah pembuatan sebuah variabel, namun belum di isi dengan suatu nilai.
-Contoh:
+Deklarasi adalah pembuatan sebuah variabel, namun belum di isi dengan suatu
+nilai. Contoh:
 
 ```java
 int n;
@@ -143,13 +145,13 @@ int x = y = z = 100;
 Suatu tipe data dapat di ubah ke tipe data lain, misalnya dari byte ke int.
 Syaratnya adalah:
 
--   kedua tipe data kompatible, misalnya antara byte dengan int, int dengan float,
-    tetapi char dan boolean tidak memiliki kompatible.
+-   kedua tipe data kompatible, misalnya antara byte dengan int, int dengan
+    float, tetapi char dan boolean tidak memiliki kompatible.
 -   tipe data yang dituju memiliki ruang penyimpanan yang lebih besar, misalnya
-    byte memiliki ruang penyimpanan 2^8, akan diubah ke int yang memiliki penyimpanan
-    2^32. Tetapi jika dari tipe data int ke byte, maka jika nilai yang akan diubah
-    lebih besar dari 2^8, maka akan menyebabkan nilai akhir adalah hasil modulo
-    dari ukuran byte.
+    byte memiliki ruang penyimpanan 2^8, akan diubah ke int yang memiliki
+    penyimpanan 2^32. Tetapi jika dari tipe data int ke byte, maka jika nilai
+    yang akan diubah lebih besar dari 2^8, maka akan menyebabkan nilai akhir
+    adalah hasil modulo dari ukuran byte.
 
 Cara mengubah tipe data dapat dicontohkan sebagai berikut:
 

@@ -10,15 +10,17 @@ class Main{
 }
 ```
 
-`class Main` Adalah class utama, nama `Main` harus sesuai dengan nama file. Aturan penulisannya
-adalah dengan menggunakan huruf kapital di huruf pertama. Misalnya: `Main`, `Utama`,
-dsb-nya.
+`class Main` Adalah class utama, nama `Main` harus sesuai dengan nama file.
+Aturan penulisannya adalah dengan menggunakan huruf kapital di huruf pertama.
+Misalnya: `Main`, `Utama`, dsb-nya.
 
-`public static void main(String args[])` adalah kode utama yang akan dijalankan ketika kita menjalankan sebuah program Java.
+`public static void main(String args[])` adalah kode utama yang akan dijalankan
+ketika kita menjalankan sebuah program Java.
 
 ## Aturan Penamaan
 
-Dalam penulisan nama variabel perlu diperhatikan terdapat beberapa aturan khusus dalam Java yang harus dipatuhi seperti:
+Dalam penulisan nama variabel perlu diperhatikan terdapat beberapa aturan khusus
+dalam Java yang harus dipatuhi seperti:
 
 1. tidak boleh diawali dengan angka,
 
@@ -30,7 +32,9 @@ Dalam penulisan nama variabel perlu diperhatikan terdapat beberapa aturan khusus
 
 5. nama variable tidak boleh mengandung spasi.
 
-Menurut Convention over configuration Java penulisan nama variable menggunakan lower camel case (misalnya namaVariabel), dan penulisan nama class menggunakan upper camel case (misalnya Main).
+Menurut Convention over configuration Java penulisan nama variable menggunakan
+lower camel case (misalnya namaVariabel), dan penulisan nama class menggunakan
+upper camel case (misalnya Main).
 
 ## Menjalankan program
 
@@ -48,5 +52,5 @@ File inilah yang kemudian dijalankan dengan menggunakan perintah:
 ```bash
 java NamaFile
 ```
-perhatikan, untuk menjalankan, tidak perlu menggunakan `NamaFile.class`, cukup dengan
-menggunakan `NamaFile` saja.
+perhatikan, untuk menjalankan, tidak perlu menggunakan `NamaFile.class`, cukup
+dengan menggunakan `NamaFile` saja.

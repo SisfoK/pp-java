@@ -15,7 +15,9 @@
 |    Division assignment    |    /=    |
 |    Modulus asignement     |    %=    |
 
-Operator ini hanya bisa digunakan pada tipe data angka, tidak bisa digunakan pada data `boolean`, tetapi dapat digunakan pada tipe data `char`, karena `char` pada dasarnya adalah `int` di dalama Java.
+Operator ini hanya bisa digunakan pada tipe data angka, tidak bisa digunakan
+pada data `boolean`, tetapi dapat digunakan pada tipe data `char`, karena `char`
+pada dasarnya adalah `int` di dalama Java.
 
 ## Operator pembanding
 
@@ -30,7 +32,10 @@ Operator ini hanya bisa digunakan pada tipe data angka, tidak bisa digunakan pad
 
 Hasil operator ini adalah nilai boolean, bisa berupa true atau false.
 
-Integer, floating-point numbers, characters, dan Booleans bisa digunakan pada operator equal to dan not equal to, tetapi boolean tidak bisa digunakan pada operator lain (operator order) hanya integer, floating-point numbers dan characters.
+Integer, floating-point numbers, characters, dan Booleans bisa digunakan pada
+operator equal to dan not equal to, tetapi boolean tidak bisa digunakan pada
+operator lain (operator order) hanya integer, floating-point numbers dan
+characters.
 
 ## Operator Logika
 
@@ -41,4 +46,5 @@ Integer, floating-point numbers, characters, dan Booleans bisa digunakan pada op
 |  XOR  |    ^     |
 |  NOT  |    !     |
 
-Digunakan logika digunakan pada tipe data boolean untuk menyelesaikan permasalahan yang membutuhkan nilai-nilai logika.
+Digunakan logika digunakan pada tipe data boolean untuk menyelesaikan
+permasalahan yang membutuhkan nilai-nilai logika.

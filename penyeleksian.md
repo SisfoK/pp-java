@@ -1,4 +1,8 @@
-Peyeleksian adalah suatu pilihan atau opsi dengan kondisi tertentu. Jika kondisi yang menjadi syarat terpenuhi, maka semua statement dalam blok kondisi tersebut akan dijalankan, jika tidak maka semua stetement dalam blok itu dilewati dan tidak dijalankan. Dalam Java terdapat dua macam penyeksian kondisi yaitu “IF-Else” dan “Switch”.
+Peyeleksian adalah suatu pilihan atau opsi dengan kondisi tertentu. Jika kondisi
+yang menjadi syarat terpenuhi, maka semua statement dalam blok kondisi tersebut
+akan dijalankan, jika tidak maka semua stetement dalam blok itu dilewati dan
+tidak dijalankan. Dalam Java terdapat dua macam penyeksian kondisi yaitu
+"IF-Else" dan "Switch".
 
 ## If-Else
 
@@ -18,11 +22,14 @@ else {
 
 Aturannya:
 
-Berikut ini hal yang harus diketahui ketika menggunakan “If-else”:
+Berikut ini hal yang harus diketahui ketika menggunakan "If-else":
 
-1. IF statement bisa tidak memiliki “Else” statement, “Else” statement harus terletak setelah semua “Else If” statement (jika ada).
-2. IF statement bisa memiliki banyak “Else If” statement dan semuanya harus terletak sebelum “Else” statement.
-3. Ketika salah satu “Else If” statement dijalankan, tidak ada “Else If” statement lainnya yang akan dijalankan.
+1.  If statement bisa tidak memiliki "Else" statement, "Else" statement harus
+    terletak setelah semua "Else If" statement (jika ada).
+2.  If statement bisa memiliki banyak "Else If" statement dan semuanya harus
+    terletak sebelum "Else" statement.
+3.  Ketika salah satu "Else If" statement dijalankan, tidak ada "Else If"
+    statement lainnya yang akan dijalankan.
 
 Contoh:
 
@@ -41,7 +48,11 @@ if (value <= 50) {
 
 ## Switch
 
-Fungsi dari statement Switch ini tidak jauh berbeda dengan If-else. Pada “Switch” terdapat satu variable uji yang digunakan untuk menguji kesamaan terhadap daftar nilai yang ada. Setiap nilai (daftar nilai) ini disebut case, dan variable uji akan diperiksa untuk setiap case.
+Fungsi dari switch tidak jauh berbeda dengan If-else. Pada switch terdapat
+satu variable uji yang digunakan untuk pengujian terhadap daftar nilai yang ada.
+Setiap nilai (daftar nilai) ini disebut case, dan variable uji akan diperiksa
+untuk setiap case. Jika daftar case tidak ada yang memenuhi, maka akan otomatis
+ke `default`.
 
 Bentuk umumnya:
 
@@ -58,7 +69,8 @@ switch ( test_variable) {
 }
 ```
 
-> default sama artinya dengan else di “If-else”
+`break` digunakan untuk menghentikan pencarian jika kondisi yang dicari sudah
+memenuhi.
 
 Contoh penggunaan:
 
