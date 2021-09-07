@@ -132,6 +132,11 @@ tipe datanya sama. Contoh:
 ```java
 int a = 12, b = 13, c = 14;
 ```
+atau bisa juga jika semua data memiliki nilai yang sama, misalnya:
+
+```java
+int x = y = z = 100;
+```
 
 ## Mengubah tipe ke tipe data lain
 
