@@ -1,5 +1,6 @@
 Reference:
-Java: The Complete Reference Eleventh Edition
+- Java: The Complete Reference Eleventh Edition
+- Modul Pengantar Pemrograman, Lab RPL, Prodi Ilmu Komputer/Sistem Informasi Universitas Hasanuddin
 
 Tutorial Pemrograman Java
 
