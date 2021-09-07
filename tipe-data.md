@@ -76,3 +76,15 @@ Tipe data ini akan banyak digunakan kemudian.
 ```java
 boolean b = true;
 ```
+
+### String
+
+String adalah tipe data yang menampung karakter. String bisa menampung lebih dari
+satu karakter, misalnya kata, kalimat atau paragraf.
+
+```java
+String name = "Deo";
+```
+
+perhatikan, penulisan `String` menggunakan kapital di awal kata, kemudian isinya
+disimpan di dalam tanda kutip dua ("...").
