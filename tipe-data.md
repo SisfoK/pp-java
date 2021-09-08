@@ -2,7 +2,7 @@ Java merupakan bahasa pemrograman yang strongly typed, maka kita tidak bisa
 mengabaikan tipe data. Kita harus tahu data seperti apa yang disimpan ke dalam
 variabel. Selain itu, Java juga bersifat statically typed, yang artinya setiap
 variabel harus dideklarasikan terlebih dahulu sebelum digunakan
-<sup id="1">[1](#1)</sup>.
+<sup id="1a">[1](#1)</sup>.
 
 ## Tipe Data Primitif
 
@@ -187,4 +187,4 @@ Aturan promosi ini adalah:
 3. float akan di ubah ke double,
 4. jika operasi melibatkan double, maka otomatis akan diubah semua ke double.
 
-<a name="1">1</a>: https://www.dicoding.com/academies/60/tutorials/1803?from=1797 [↩](#1)
+<a name="1">1</a>: https://www.dicoding.com/academies/60/tutorials/1803?from=1797 [↩](#1a)
