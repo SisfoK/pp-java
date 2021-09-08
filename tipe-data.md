@@ -1,4 +1,4 @@
-# Tipe Data
+Java merupakan bahasa pemrograman yang strongly typed, maka kita tidak bisa mengabaikan tipe data. Kita harus tahu data seperti apa yang disimpan ke dalam variabel. Selain itu, Java juga bersifat statically typed, yang artinya setiap variabel harus dideklarasikan terlebih dahulu sebelum digunakan[^1].
 
 ## Tipe Data Primitif
 
@@ -182,3 +182,6 @@ Aturan promosi ini adalah:
 2. jika operasinya adalah long, maka akan diubah ke long,
 3. float akan di ubah ke double,
 4. jika operasi melibatkan double, maka otomatis akan diubah semua ke double.
+
+
+[^1]: https://www.dicoding.com/academies/60/tutorials/1803?from=1797

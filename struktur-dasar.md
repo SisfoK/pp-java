@@ -3,9 +3,9 @@
 Struktur dasar sebuah bahasa pemrograman Java adalah sebagai berikut:
 
 ```java
-class Main{
-    public static void main(String args[]){
-
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
     }
 }
 ```
