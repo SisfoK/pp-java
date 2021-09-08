@@ -11,4 +11,7 @@ Tutorial Pemrograman Java
 4. [Penyeleksian](/penyeleksian.md)
 5. [Perulangan](/perulangan.md)
 6. [Jump statement](/jump-statement.md)
-7. Data structure
+7. [Array](/array.md)
+8. Method
+9.  Exceptions
+10. File I/O
