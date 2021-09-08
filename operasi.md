@@ -19,6 +19,22 @@ Operator ini hanya bisa digunakan pada tipe data angka, tidak bisa digunakan
 pada data `boolean`, tetapi dapat digunakan pada tipe data `char`, karena `char`
 pada dasarnya adalah `int` di dalama Java.
 
+Contoh:
+
+```java
+int n = 12, m = 2;
+int add = n + m;
+int sub = n - m;
+int mul = m * n;
+int div = m / n;
+int mod = m % n;
+int inc = n++;
+int dec = n--;
+
+System.out.println(add + " " + sub + " " + mul + " " + div + " " + mod + " " +
+inc + " " + dec);
+```
+
 ## Operator pembanding
 
 |          Hasil           | Operator |
@@ -36,6 +52,18 @@ Integer, floating-point numbers, characters, dan Booleans bisa digunakan pada
 operator equal to dan not equal to, tetapi boolean tidak bisa digunakan pada
 operator lain (operator order) hanya integer, floating-point numbers dan
 characters.
+
+Contoh:
+
+```java
+int i = 12, b = 3;
+
+if (i < b) {
+    System.out.println("True");
+} else if (i == b) {
+    System.out.println("Equal");
+}
+```
 
 ## Operator Logika
 
