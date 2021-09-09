@@ -1,16 +1,20 @@
 Java merupakan bahasa pemrograman yang strongly typed, maka kita tidak bisa
 mengabaikan tipe data. Kita harus tahu data seperti apa yang disimpan ke dalam
 variabel. Selain itu, Java juga bersifat statically typed, yang artinya setiap
-variabel harus dideklarasikan terlebih dahulu sebelum digunakan
-<sup id="1a">[1](#1)</sup>.
+variabel harus dideklarasikan terlebih dahulu sebelum digunakan.
 
 ## Tipe Data Primitif
+
+Tipe data primitif adalah tipe data standar yang tidak diturunkan dari objek
+manapun. Tipe data primitif telah ditentukan dengan kata kuncinya masing-masing.
+Terdapat 8 (delapan) tipe data primitif yang Java dukung, antara lain:
 
 ### Integer
 
 1. byte
     
-    byte adalah tipe data yang menampung angka dengan range -127 - 128 (2^8).
+    byte adalah tipe data yang menampung angka 8 bit dengan range -127 - 128
+    (2^8). Tipe data byte memiliki nilai default 0.
 
     ```java
     byte n = 12;
@@ -18,8 +22,8 @@ variabel harus dideklarasikan terlebih dahulu sebelum digunakan
 
 2. short
     
-    short adalah tipe data yang menampung angka dengan range -32.768 - 32.767
-    (2^16).
+    short adalah tipe data yang menampung angka 16 bit dengan range -32.768 -
+    32.767 (2^16). Tipe data byte memiliki nilai default 0.
 
     ```java
     short n = 1200;
@@ -27,7 +31,8 @@ variabel harus dideklarasikan terlebih dahulu sebelum digunakan
 
 3. int
 
-    int adalah tipe data yang menampung angka dengan range 2^32.
+    int adalah tipe data yang menampung angka 32 bit dengan range -2,147,483,648
+    - 2,147,483,647 (2^32). Tipe data byte memiliki nilai default 0.
 
     ```java
     int n = 289000;
@@ -35,18 +40,19 @@ variabel harus dideklarasikan terlebih dahulu sebelum digunakan
 
 4. long
 
-    long adalah tipe data yang lebih panjang dari int, yaitu 2^64.
+    long adalah tipe data yang lebih panjang dari int, yaitu
+    -9,223,372,036,854,775,808 sampai 9,223,372,036,854,775,807 (2^64). Tipe
+    data long memiliki nilai default 0L.
 
     ```java
     long n = 122334445;
     ```
-### Floating point
 
-Tipe data ini adalah tipe data bilangan desimal, misalnya 1.2, 3.4, 3.14, dst.
+5. float
 
-1. float
-
-    Tipe data float adalah tipe data yang bisa nemapung nilai 2^32.
+    Tipe data float adalah tipe data untuk bilangan desimal seperti 3.14, 2.1
+    atay bilangan desimal lainnya. Tipe data ini bisa nemapung nilai 2^32. Nilai
+    default-nya 0.0f.
 
     ```java
     float n = 3.14f;
@@ -54,15 +60,15 @@ Tipe data ini adalah tipe data bilangan desimal, misalnya 1.2, 3.4, 3.14, dst.
     penulisannya ditambahkan huruf `f` di belakang angkanya, ini untuk menandai
     bahwa bilangan tersebut adalah `float` bukan `double`.
 
-2. double
+6. double
 
     Tipe data double mirip dengan tipe data float, kecuali data yang bisa ditamp
-    ungnya adalah 2^64.
+    ungnya lebih besar yaitu 2^64. Nilai default-nya 0.0d.
 
     ```java
     double n = 144.2;
     ```
-### Characters
+7. char
 
 Tipe data char adala tipe data yang hanya bisa menampung satu huruf saja.
 Misalnya:
@@ -72,15 +78,21 @@ char c = 'a';
 ```
 Nilai yang diberikan disimpan dalam satu tanda kutip.
 
-### Boolean
+8. Boolean
 
 Boolean adalah tipe data yang bisa menampung dua nilai, yaitu benar atau salah.
-
-Tipe data ini akan banyak digunakan kemudian.
+Tipe data ini akan banyak digunakan kemudian. Nilai default-nya false.
 
 ```java
 boolean b = true;
 ```
+
+## Tipe Data Reference
+
+Tipe data reference merupakan sebuah tipe data yang merujuk ke sebuah objek atau
+instance dari sebuah class. Salah satu tipe data yang termasuk ke dalam tipe
+data reference adalah `string`. Tipe data string menunjuk ke instance dari class
+`java.lang.String`.
 
 ### String
 
@@ -186,5 +198,3 @@ Aturan promosi ini adalah:
 2. jika operasinya adalah long, maka akan diubah ke long,
 3. float akan di ubah ke double,
 4. jika operasi melibatkan double, maka otomatis akan diubah semua ke double.
-
-<a name="1">1</a>: https://www.dicoding.com/academies/60/tutorials/1803?from=1797 [↩](#1a)
