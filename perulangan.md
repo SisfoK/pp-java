@@ -105,3 +105,43 @@ do {
 
 System.out.println(i);
 ```
+
+## For-each
+
+For-each bukanlah keyword dari Java, melainkan cara yang lebih sederhana untuk
+membuat perulangan for.
+
+Bentuk umum:
+
+```java
+for (type var: array) { 
+    statements using var;
+}
+```
+
+Sama nilainya dengan
+
+```java
+for (int i=0; i<arr.length; i++) {
+    type var = arr[i];
+    statements using var;
+}
+```
+
+Ini biasa digunakan pada array atau koleksi (seperti ArrayList).
+
+Contoh:
+
+```java
+int[] arr = { 125, 132, 95, 116, 110 };
+
+for (int i: arr) {
+    System.out.println(i);
+}
+```
+
+Namun for-each memiliki batasan:
+
+1. Tidak bisa digunakan jika ingin memodifikasi nilai array,
+2. Tidak bisa melacak nomor index,
+3. Hanya bisa melakukan perulangan kedepan sekali.
