@@ -1,7 +1,8 @@
 Perulangan (Looping) adalah suatu blok kode yang akan terus berjalan selama
-kondisi yang diberikan masih memenuhi menghentikannya (terminasi). Setiap
-perulangan memiliki empat bagian, yaitu `inisialisasi`, `body`, `iterasi`, dan
-`terminasi/kondisi`.
+syarat yang diberikan masih memenuhi.
+
+Setiap perulangan memiliki empat bagian, yaitu `inisialisasi`, `body`,
+`iterasi`, dan `terminasi/kondisi`.
 
 1.  Inisialisasi adalah statement yang menyatakan keadaan awal sebuah
     perulangan.
@@ -13,15 +14,17 @@ perulangan memiliki empat bagian, yaitu `inisialisasi`, `body`, `iterasi`, dan
 4.  Terminasi atau kondisi adalah statement bernilai Boolean yang menyatakan
     batas atau keadaan untuk menghentikan perulangan.
 
-Pada Java dikenal tiga macam bentuk perulangan, yaitu: while, do-while, dan
-for. Pada dasarnya semua perulangan dalam Java memiliki cara kerja yang sama
+Pada Java dikenal tiga macam bentuk perulangan, yaitu: `while`, `do-while`, dan
+`for`.
+
+Pada dasarnya semua perulangan dalam Java memiliki cara kerja yang sama
 yaitu selama kondisi masih bernilai true maka perulangan akan terus dilakukan
 hinggi kondisi bernilai false.
 
 ## For
 
 For adalah perulangan yang banyaknya perulangan diketahui atau banyaknya
-perulangan jelas(tentu).
+perulangan sudah jelas(tentu).
 
 Bentuk umum:
 
@@ -71,12 +74,12 @@ while (i<n) {
 
 ## Do-while
 
-Perulangan ini tidak jauh berbeda dengan perulangan While. Yang menjadi pembeda
-adalah pada perulangan ini bagian body (semua dalam kurung kurawal setelah "do")
-dijalankan terlebih dahulu sebelum pengecekan kondisi. Sehingga walaupun kondisi
-dari awal bernilai false, bagian body tetap dijalankan sekali. Berbeda dengan
-perulangan while apabila kondisi diawal bernilai false maka bagian body tidak
-akan dijalankan.
+Pada perulangan ini bagian body (semua dalam kurung kurawal setelah "do")
+dijalankan terlebih dahulu sebelum pengecekan kondisi.
+
+Sehingga walaupun kondisi dari awal bernilai false, bagian body tetap dijalankan
+sekali. Berbeda dengan perulangan while apabila kondisi diawal bernilai false
+maka bagian body tidak akan dijalankan.
 
 Bentuk umum:
 
