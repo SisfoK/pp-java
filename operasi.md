@@ -29,24 +29,29 @@ public class OperatorAritmatika {
         int hasilPenjumlahan = 5 + 1;
         System.out.println("Hasil 5 + 1 = " + hasilPenjumlahan);
         System.out.println();
+
         System.out.println("Operasi Pengurangan");
         int hasilPengurangan = 4 - 1;
         System.out.println("Hasil 4 - 1 = " + hasilPengurangan);
         System.out.println();
+
         System.out.println("Operasi Pengalian");
         int hasilPengalian = 5 * 5;
         System.out.println("Hasil 5 * 5 = " + hasilPengalian);
         System.out.println();
+
         System.out.println("Operasi Pembagian");
         int hasilPembagian = 20 / 2;
         System.out.println("Hasil 20 / 2 = " + hasilPembagian);
         System.out.println();
+
         System.out.println("Operasi Habis bagi");
         int hasilSisa = 8 % 2;
         System.out.println("Hasil 8 % 2 = " + hasilSisa);
+        System.out.println();
+
         int hasilSisaLain = 9 % 2;
         System.out.println("Hasil 9 % 2 = " + hasilSisaLain);
-        System.out.println();
     }
 }
 ```
@@ -92,3 +97,16 @@ if (i < b) {
 
 Digunakan logika digunakan pada tipe data boolean untuk menyelesaikan
 permasalahan yang membutuhkan nilai-nilai logika.
+
+Contoh penggunaan:
+
+```java
+boolean a = true;
+int b = 12;
+
+if (a == true && b < 20) {
+    System.out.println("True");
+} else {
+    System.out.println("False");
+}
+```
