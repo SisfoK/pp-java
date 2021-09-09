@@ -1,5 +1,6 @@
-Array adalah kelompok variabel dengan tipe sejenis dan dinyatakan dengan nama
-yang sama. Array merupakan tipe khusus untuk menyatukan sekelompok variabel
+Array adalah kelompok data dengan tipe yang sama.
+
+Array merupakan tipe khusus untuk menyatukan sekelompok variabel
 dengan tipe yang sama. Dalam Java, pada saat mendeklarasikan sebuah array
 panjang array harus ditentukan, dan tidak dapat diubah setelahnya. Setiap item
 dalam sebuah array disebut element, dan setiap element diakses dengan indexnya.
