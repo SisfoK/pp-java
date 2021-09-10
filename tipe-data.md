@@ -70,13 +70,15 @@ Terdapat 8 (delapan) tipe data primitif yang Java dukung, antara lain:
     ```
 7. char
 
-Tipe data char adala tipe data yang hanya bisa menampung satu huruf saja.
-Misalnya:
+    Tipe data char adala tipe data yang hanya bisa menampung satu huruf saja.
+    Nilai yang bisa ditampung adalah 0 to 65,535.
+    Misalnya:
 
-```java
-char c = 'a';
-```
-Nilai yang diberikan disimpan dalam satu tanda kutip.
+    ```java
+    char c = 'a';
+    ```
+
+    Nilai yang diberikan disimpan dalam satu tanda kutip.
 
 8. Boolean
 
