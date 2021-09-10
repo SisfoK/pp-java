@@ -1,6 +1,13 @@
+Java adalah bahasa pemrograman level tinggi, robust, object-oriented dan
+secure/stable tetapi tidak pure object-oriented language karena masih mendukung
+primitive data types seperti int, char, dll. 
+
 Sintaks Java mirip dengna C/C++, tetapi Java tidak mensupport low-level
-programming seperti pointer. Kode Java selal u ditulis didalam sebuah class dan
-objek.
+programming seperti pointer (sebenarnya Java punya pointer. Semua turunan object
+adalah pointer. Akan tetapi, anda bisa jadi programmer Java profesional tanpa
+perlu tahu fakta ini<sup>[1]</sup>). Kode Java selalu ditulis didalam sebuah class dan objek.
+
+[1]: https://jekjektuanakal.my.id/post/peta-jalan-pejuang-cpp-2/
 
 ## Struktur program
 
