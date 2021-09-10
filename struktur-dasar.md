@@ -1,3 +1,7 @@
+Sintaks Java mirip dengna C/C++, tetapi Java tidak mensupport low-level
+programming seperti pointer. Kode Java selal u ditulis didalam sebuah class dan
+objek.
+
 ## Struktur program
 
 Struktur dasar sebuah bahasa pemrograman Java adalah sebagai berikut:
