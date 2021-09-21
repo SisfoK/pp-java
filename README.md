@@ -13,7 +13,7 @@ Tutorial Pemrograman Java
 6. [Perulangan](/perulangan.md),
 7. [Jump statement](/jump-statement.md),
 8. [Array](/array.md),
-9. Method
+9. [Method](/method.md)
 10. [Exceptions](https://github.com/deovaliandro/error-handling) (Pembahasan)
     khusus,
 11. [File I/O](/file-io.md).
