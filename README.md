@@ -16,4 +16,6 @@ Tutorial Pemrograman Java
 9. Method
 10. [Exceptions](https://github.com/deovaliandro/error-handling) (Pembahasan)
     khusus,
-11. File I/O,
+11. [File I/O](/file-io.md).
+
+Materi yang lain akan ditambahkan kemudian.
