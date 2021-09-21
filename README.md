@@ -6,12 +6,13 @@ Reference:
 Tutorial Pemrograman Java
 
 1. [Struktur dasar](/struktur-dasar.md)
-2. [Tipe data](/tipe-data.md)
-3. [Operasi dasar](/operasi.md)
-4. [Penyeleksian](/penyeleksian.md)
-5. [Perulangan](/perulangan.md)
-6. [Jump statement](/jump-statement.md)
-7. [Array](/array.md)
-8. Method
-9.  Exceptions
-10. File I/O
+2. [Input dan Output](/io.md)
+3. [Tipe data](/tipe-data.md)
+4. [Operasi dasar](/operasi.md)
+5. [Penyeleksian](/penyeleksian.md)
+6. [Perulangan](/perulangan.md)
+7. [Jump statement](/jump-statement.md)
+8. [Array](/array.md)
+9. Method
+10. Exceptions
+11. File I/O
