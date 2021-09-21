@@ -4,6 +4,14 @@ Jika syarat yang diberikan memenuhi, maka semua statement dalam blok kondisi
 tersebut akan dijalankan, namun jika tidak maka semua stetement dalam blok itu
 dilewati dan tidak dijalankan.
 
+Contohnya, jika nilai sama dengan atau lebih dari 90 maka mahasiswa tersebut
+mendapatkan nilai A, jika nilainya adalah dalam rentang 80-90 maka mahasiswa
+tersebut mendapatkan nilai B, dan seterusnya.
+
+Disini dilakukan perulangan dengan mengecek nilai mahasiswa tersebut, jika
+memenuhi atau terdapat dalam rentang tertentu, maka mahasiswa tersebut akan
+mendapat nilai ini.
+
 Dalam Java terdapat dua macam penyeksian kondisi yaitu "If-else" dan "Switch".
 
 ## If-Else
@@ -37,13 +45,13 @@ Berikut ini hal yang harus diketahui ketika menggunakan "If-else":
 Contoh:
 
 ```java
-int value = 50;
+int nilai = 50;
 
-if (value <= 50) {
+if (nilai <= 50) {
     System.out.println("C");
-} if else (value <= 85) {
+} if else (nilai <= 85) {
     System.out.println("B");
-} if else (value > 85) {
+} if else (nilai > 85) {
     System.out.println("A");
 } else {
     System.out.println("Eror");
@@ -73,6 +81,9 @@ switch ( test_variable) {
         //statement
 }
 ```
+
+Switch memerlukan `break` untuk menghentikan pengujian ketika pengujian itu
+sudah memenuhi persyaratan yang diberikan.
 
 `break` digunakan untuk menghentikan pencarian jika kondisi yang dicari sudah
 memenuhi (Baca bagian [Jump Statement](/jump-statement.md)).
