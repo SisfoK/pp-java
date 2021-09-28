@@ -41,7 +41,10 @@ Output di Java dapat menggunakan 2 cara (yang umum digunakan).
 
 ### System.out.print()
 
-fungtion print() meskipun kita menuliskan kodenya dua baris namun hasil atau outputnya tidak menjadi dua baris, solusinya kita bisa menggunakan function yang kedua yaitu println() dimana dengan fungsi tersebut dapat menambahkan baris baru pada outputnya.
+Fungsi print() meskipun kita menuliskan kodenya dua baris namun hasil atau
+outputnya tidak menjadi dua baris, solusinya kita bisa menggunakan fungsi yang
+kedua yaitu println() dimana dengan fungsi tersebut dapat menambahkan baris baru
+pada outputnya.
 
 ```java
 class Main{
