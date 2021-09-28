@@ -19,3 +19,5 @@ Tutorial Pemrograman Java
 11. [File I/O](/file-io.md).
 
 Materi yang lain akan ditambahkan kemudian.
+
+Terima kasih untuk @BobChrismansyah atas bantuannya.
