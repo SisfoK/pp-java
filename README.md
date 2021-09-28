@@ -20,4 +20,4 @@ Tutorial Pemrograman Java
 
 Materi yang lain akan ditambahkan kemudian.
 
-Terima kasih untuk @BobChrismansyah atas bantuannya.
+Terima kasih untuk ![@BobChrismansyah](https://github.com/BobChrismansyah) atas bantuannya.
