@@ -1,3 +1,10 @@
+---
+title: Method
+layout: default
+author: @deovaliandro
+---
+
+
 Method adalah suatu fungsi.
 
 Method melaksanakan suatu tugas tertentu (menurut prinsip SOLID).

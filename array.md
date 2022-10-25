@@ -1,3 +1,10 @@
+---
+title: Array
+layout: default
+author: @deovaliandro
+---
+
+
 Array adalah kelompok data dengan tipe yang sama.
 
 Dalam Java, pada saat mendeklarasikan sebuah array panjang array harus

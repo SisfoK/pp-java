@@ -1,3 +1,10 @@
+---
+title: IO
+layout: default
+author: @deovaliandro
+---
+
+
 IO atau input output adalah mekanisme memasukkan suatu data kedalam program dan
 bagaimana mengeluarkan hasil dari program tersebut.
 

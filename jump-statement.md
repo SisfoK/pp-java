@@ -1,3 +1,10 @@
+---
+title: Jumpt Statement
+layout: default
+author: @deovaliandro
+---
+
+
 Jump statement adalah perintah untuk memindahkan alur program ke program yang
 lain.
 

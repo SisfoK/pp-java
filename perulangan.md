@@ -1,3 +1,10 @@
+---
+title: Perulangan
+layout: default
+author: @deovaliandro
+---
+
+
 Perulangan (Looping) adalah suatu blok kode yang akan terus berjalan selama
 syarat yang diberikan masih memenuhi.
 

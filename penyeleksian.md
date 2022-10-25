@@ -1,3 +1,10 @@
+---
+title: Penyeleksian
+layout: default
+author: @deovaliandro
+---
+
+
 Peyeleksian adalah pilihan atau opsi dengan suatu syarat tertentu.
 
 Jika syarat yang diberikan memenuhi, maka semua statement dalam blok kondisi

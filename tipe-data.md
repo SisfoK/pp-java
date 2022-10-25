@@ -1,3 +1,10 @@
+---
+title: Tipe Data
+layout: default
+author: @deovaliandro
+---
+
+
 Java merupakan bahasa pemrograman yang strongly typed, maka kita tidak bisa
 mengabaikan tipe data. Kita harus tahu data seperti apa yang disimpan ke dalam
 variabel. Selain itu, Java juga bersifat statically typed, yang artinya setiap

@@ -1,3 +1,10 @@
+---
+title: Struktur Dasar
+layout: default
+author: @deovaliandro
+---
+
+
 Java adalah bahasa pemrograman level tinggi, robust (mempunyai Garbage Collector
 dan Exception Handling), object-oriented dan secure/stable tetapi tidak pure
 object-oriented language karena masih mendukung primitive data types seperti

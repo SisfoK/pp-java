@@ -1,3 +1,10 @@
+---
+title: File IO
+layout: default
+author: @deovaliandro
+---
+
+
 Input dan output pada file digunakan untuk mengolah file tersebut.
 
 Untuk membaca suatu file, kita menggunakan class `FileReader` dan untuk menulis
