@@ -1,7 +1,7 @@
 ---
 title: Array
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 

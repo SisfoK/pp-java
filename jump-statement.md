@@ -1,7 +1,7 @@
 ---
 title: Jumpt Statement
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 

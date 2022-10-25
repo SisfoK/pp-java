@@ -1,7 +1,7 @@
 ---
 title: Struktur Dasar
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 

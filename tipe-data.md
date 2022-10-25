@@ -1,7 +1,7 @@
 ---
 title: Tipe Data
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 

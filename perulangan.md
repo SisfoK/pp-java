@@ -1,7 +1,7 @@
 ---
 title: Perulangan
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 

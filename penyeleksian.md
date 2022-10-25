@@ -1,7 +1,7 @@
 ---
 title: Penyeleksian
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 
