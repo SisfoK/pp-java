@@ -1,7 +1,7 @@
 ---
 title: String
 layout: default
-author: @deovaliandro
+author: "@deovaliandro"
 ---
 
 Di dalam bahasa pemrograman Java, string merupakan sebuah tipe data reference.
